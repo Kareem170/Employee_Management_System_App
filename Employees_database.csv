@@ -1,0 +1,12 @@
+ID,Name,Department,Salary,Password,Days Of Absence
+1,Karim Mohamed,Embedded Software Engineer,$1000,KM522000@,0
+2,Ahmed Essam,AI Engineer,$1200,AE522000@,2
+3,Mariam Mohamed,SW Tester,$1500,MM522000@,022
+4,Ahmed Atef,Sales Engineer,$900,AA522000@,3
+5,Asmaa Mohamed,Human Resources,$1500,AM6089@59,0
+111,Admin,CEO,$2000,CEO@,0
+6,Fatma Hassan,Human Resources,$1500,FH8043@59,0
+7,Esraa Ali,Human Resources,$1500,EA87661@59,0
+8,Ahmed Samy,Maintainance Engineer,$1500,AS6089@59,0
+15,Osama Said,Cyber Security Engineer,$2000,OS522000@,4
+20,Esraa Mohamed,UI & UX Engineer,$800,SM522000@,7
