@@ -11,26 +11,19 @@ def Authrnticate(ID , Password):
     Employees = csv.DictReader(file)
 
     for employee in Employees:
-        #print(employee)
+        
         if (ID == employee["ID"]) and (employee["Name"] == "Admin" or employee["Name"] == "admin"):
             if(Password == employee["Password"]):
                 print("Welcome Admin!")
                 print("Login Successful!")
                 return employee
-            else:
-                print("Wrong Admin Password")
-                break
+
 
         elif (ID == employee["ID"]):
             if(Password == employee["Password"]):
                 print(f"Welcome {employee["Name"]}")
                 print("Login Successful!")
                 return employee
-            else:
-                print(f"{employee["Name"]},The Password is incorrect")
-                break
-    else:
-        print("The ID isn't Registered Please, Contact The Admin")    
 
     file.close()     
 
